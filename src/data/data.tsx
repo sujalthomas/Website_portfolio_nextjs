@@ -76,7 +76,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'resume_2023_n.pdf',
+      href: 'resume_final_2023_ats.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
