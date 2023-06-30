@@ -220,15 +220,15 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Project title 1',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Mock Starbucks App',
+    description: 'A mock Starbucks app built using Spring Boot, GCP, and Docker.',
+    url: 'https://google.com',
     image: porfolioImage1,
   },
   {
-    title: 'Project title 2',
-    description: 'Give a short description of your project here.',
-    url: 'https://timbaker.me',
+    title: 'Sneak Peak',
+    description: 'A Price Comparison App built using React, Node.js, and Tailwind CSS.',
+    url: 'https://google.com',
     image: porfolioImage2,
   },
 ];
@@ -299,7 +299,7 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Sujals Project Peer',
+      name: 'Sujals Friend',
       text: 'Best work ethic and a great team player!',
       image: 'https://i.ibb.co/0hNCL47/bear.png',
     },

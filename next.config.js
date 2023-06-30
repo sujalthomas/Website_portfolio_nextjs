@@ -20,7 +20,7 @@ const nextConfig = {
   pageExtensions: ['tsx', 'mdx', 'ts'],
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
-  svgo: {
+/*   svgo: {
     multipass: true,
     plugins: ['removeDimensions'],
   },
@@ -29,7 +29,7 @@ const nextConfig = {
   trailingSlash: false,
   images: {
     domains: ['images.unsplash.com', 'source.unsplash.com'],
-  },
+  }, */
 };
 
 module.exports = nextConfig;
