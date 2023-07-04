@@ -7,7 +7,7 @@ import {
   MapIcon,
   SparklesIcon,
 } from '@heroicons/react/24/outline';
-import React, {ReactNode} from 'react';
+import React, { ReactNode } from 'react';
 
 import GithubIcon from '../components/Icon/GithubIcon';
 import InstagramIcon from '../components/Icon/InstagramIcon';
@@ -18,7 +18,7 @@ import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
 import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
 import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/testimonial.webp';
+import testimonialImage from '../images/banner.jpg';
 import {
   About,
   ContactSection,
@@ -61,22 +61,22 @@ export type SectionId = typeof SectionId[keyof typeof SectionId];
  */
 export const heroData: Hero = {
   imageSrc: heroImage,
-  name: `I'm Sujal Thomas.`,
+  name: `I'm Sujal Thomas`,
   description: (
     <>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a California based <strong className="text-stone-100">Full Stack Software Engineer</strong>, currently looking for new oppurtunities.
+      <p className="prose-sm text-cyan-100 sm:prose-base lg:prose-lg">
+        I'm a <strong className="text-cyan-100">Full Stack Software Engineer</strong> based in <strong className="text-cyan-100">California</strong>, seeking exciting new opportunities.
       </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me practising <strong className="text-stone-100">trading</strong>,
-        strumming my <strong className="text-stone-100">guitar</strong>, or exploring beautiful{' '}
-        <strong className="text-stone-100">Californian Mountains</strong>.
+      <p className="prose-sm text-cyan-100 sm:prose-base lg:prose-lg">
+        During my leisure time, you can find me honing my  <strong className="text-cyan-100">trading</strong>,
+        skills, strumming melodies on my <strong className="text-cyan-100">guitar</strong>, or venturing into the breathtaking {' '}
+        <strong className="text-cyan-100">mountains of California</strong>.
       </p>
     </>
   ),
   actions: [
     {
-      href: 'resume_final_2023_ats.pdf',
+      href: 'Sujal_Thomas_resume2023.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -98,12 +98,12 @@ export const aboutData: About = {
   A Software Engineering graduate from San Jose State University, I bring a wealth of practical experience and a strong technical skillset from roles such as Data Analyst, Full Stack Developer, and Tech Lead at the Google Student Developer Club. I thrive in leveraging advanced technologies to tackle real-world problems and am passionate about learning and making a meaningful impact. Currently, I'm enthusiastically seeking new opportunities to further apply and expand my skills.
   `,
   aboutItems: [
-    {label: 'Location', text: 'San Jose, CA', Icon: MapIcon},
-    {label: 'Age', text: '24', Icon: CalendarIcon},
-    {label: 'Nationality', text: 'Indian', Icon: FlagIcon},
-    {label: 'Interests', text: 'Photography, Trading, Cooking', Icon: SparklesIcon},
-    {label: 'Study', text: 'San Jose State University', Icon: AcademicCapIcon},
-    {label: 'Employment', text: 'Looking for oppurtunities', Icon: BuildingOffice2Icon},
+    { label: 'Location', text: 'San Jose, CA', Icon: MapIcon },
+    { label: 'Age', text: '24', Icon: CalendarIcon },
+    { label: 'Nationality', text: 'Indian', Icon: FlagIcon },
+    { label: 'Interests', text: 'Photography, Trading, Cooking', Icon: SparklesIcon },
+    { label: 'Study', text: 'San Jose State University', Icon: AcademicCapIcon },
+    { label: 'Employment', text: 'Looking for oppurtunities', Icon: BuildingOffice2Icon },
   ],
 };
 
@@ -111,23 +111,6 @@ export const aboutData: About = {
  * Skills section
  */
 export const skills: SkillGroup[] = [
-  {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 10,
-      },
-      {
-        name: 'Hindi',
-        level: 10,
-      },
-      {
-        name: 'Spanish',
-        level: 3,
-      },
-    ],
-  },
   {
     name: 'Frontend Development',
     skills: [
@@ -213,6 +196,23 @@ export const skills: SkillGroup[] = [
       },
     ],
   },
+  {
+    name: 'Spoken languages',
+    skills: [
+      {
+        name: 'English',
+        level: 10,
+      },
+      {
+        name: 'Hindi',
+        level: 10,
+      },
+      {
+        name: 'Spanish',
+        level: 3,
+      },
+    ],
+  },
 ];
 
 /**
@@ -253,9 +253,9 @@ export const education: TimelineItem[] = [
   },
 ];
 
-const BulletPoint = React.memo(({children}: { children: ReactNode }) => (
-  <div style={{display: "flex", marginBottom: "10px"}}>
-    <div style={{fontWeight: "bold", marginRight: "10px"}}>&bull;</div>
+const BulletPoint = React.memo(({ children }: { children: ReactNode }) => (
+  <div style={{ display: "flex", marginBottom: "10px" }}>
+    <div style={{ fontWeight: "bold", marginRight: "10px" }}>&bull;</div>
     <div>{children}</div>
   </div>
 ));
@@ -299,9 +299,9 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Sujals Friend',
-      text: 'Best work ethic and a great team player!',
-      image: 'https://i.ibb.co/0hNCL47/bear.png',
+      name: 'Sanjay Naidu',
+      text: 'Sujal Thomas was an excellent data analyst intern at Pikky. His analytical skills and ability to derive insights from complex datasets were impressive. He made valuable contributions to our data-driven decision-making process.',
+      image: 'https://i.ibb.co/rd8NgQp/avatar.png',
     },
   ],
 };
@@ -341,9 +341,9 @@ export const contact: ContactSection = {
  * Social items
  */
 export const socialLinks: Social[] = [
-  {label: 'Github', Icon: GithubIcon, href: 'https://github.com/sujalthomas'},
+  { label: 'Github', Icon: GithubIcon, href: 'https://github.com/sujalthomas' },
   //{label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  {label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://linkedin.com/in/sujal-thomas-tatipelli-b72120161'},
-  {label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/sujal_thomas/'},
-  {label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/RenegadeThomas'},
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://linkedin.com/in/sujal-thomas-tatipelli-b72120161' },
+  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/sujal_thomas/' },
+  { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/RenegadeThomas' },
 ];
