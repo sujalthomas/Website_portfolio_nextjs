@@ -18,7 +18,7 @@ const Footer: FC = memo(() => (
         <Socials />
       </div>
       <span className="text-sm bg-gradient-to-r from-violet-400 to-pink-300 bg-clip-text text-transparent">Built with React & TailwindCSS, Deployed via Vercel</span>
-      <span className="text-sm bg-gradient-to-r from-violet-400 to-pink-300 bg-clip-text text-transparent">Built with React & TailwindCSS, Deployed via Vercel /n © Copyright 2022 Sujal Thomas Tatipelli</span>
+      <span className="text-sm bg-gradient-to-r from-violet-400 to-pink-300 bg-clip-text text-transparent">© Copyright 2022 Sujal Thomas Tatipelli</span>
     </div>
   </div>
 ));
