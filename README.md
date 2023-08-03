@@ -2,7 +2,7 @@
 
 A modern, React-based template tailored for developers to showcase their resume and portfolio. Experience the magic of React combined with the elegance of Tailwind CSS.
 
-🔗 [**Live Demo**](www.sujalthomas.com)
+🔗 www.sujalthomas.com
 
 ## 📖 **Description**
 This isn't just another resume website template. It's a powerful, React-driven platform engineered on the Next.js framework and styled with the precision of TailwindCSS. 
