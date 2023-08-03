@@ -32,4 +32,4 @@ This isn't just another resume website template. It's a powerful, React-driven p
 ## 👨‍💻 **Project Maintained By** 
 Sujal Thomas Tatipelli
 
-<sub>Original template by Ted. Huge shoutout for the open-source contribution!🙌</sub>
+<sub>Starter template by Ted. Huge shoutout for the open-source contribution!🙌</sub>
