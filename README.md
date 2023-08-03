@@ -1,32 +1,58 @@
-## Description
+\# 🌐 ReactJS Resume Website Template 
 
-### Yarn next build
+\![GitHub release](badge-link) ![GitHub top language](badge-link) ![GitHub Repo forks](badge-link) ![GitHub Repo stars](badge-link) ![GitHub package.json dependency version](badge-link) ![Github Repo Sponsors](badge-link)
 
-### Yarn next start
+\A modern, React-based template tailored for developers to showcase their resume and portfolio. Experience the magic of React combined with the elegance of Tailwind CSS.
 
-### 5. Hook up contact form
-Due to the variety of options available for contact form providers, I've hooked up the contact form only so far as handling inputs and state. Form submission and the actual sending of the email is open to your own implementation. My personal recommendation for email provider is [Sendgrid.](https://sendgrid.com/)
+\🔗 [**Live Demo**](demo-link)
 
+\💙 If this template has been helpful, consider sponsoring the project or giving it a star!
 
-### 7. Deploy to Vercel and enjoy your new Resume Website
+\## 🎉 **What's New in Version 2?**
+\- 🔄 Re-architected using React with full TypeScript support.
+\- 🚀 Leverages the power of the Next.js framework: server-side rendering, static generation, image optimization, API routes, and seamless deployments.
+\- 🎨 Styled exclusively with TailwindCSS for a sleek, responsive design.
+\- 📄 Simplified data source for easy customization.
+\- ✨ Major upgrades across all site sections for a modern UX/UI.
 
-Deploying your new site to Vercel is simple, and can be done by following their guide [here.](https://vercel.com/guides/deploying-nextjs-with-vercel) When you're all done and the build succeeds, you should be given a url for your live site, go there and you'll see your new personal resume website! Congratulations!
+\Searching for the legacy version? [Find it here](old-version-link).
 
-## Credits: Project Created & Maintained By
+\## 📖 **Description**
+\This isn't just another resume website template. It's a powerful, React-driven platform engineered on the Next.js framework and styled with the precision of TailwindCSS. By sourcing data from a single configuration file, this template promises a personalized site in mere minutes. Experience lightning-fast loads and impeccable UI across all devices, thanks to its mobile-first design.
 
-### Tim Baker
+\## 🚀 **Get Started**
 
-## Modified By 
+\1. **Prerequisites** 🛠
+   \Ensure you've installed the latest stable versions of [Node](node-link) and [Yarn](yarn-link) on your machine.
 
-### Sujal Thomas Tatipelli
+\2. **Clone & Setup** 📥 
+   \Fork this repository for your own version! Not sure about forking? [Learn more here](forking-link). Then, download the forked repo to your machine.
 
-[![GitHub followers](https://img.shields.io/github/followers/tbakerx.svg?style=social&label=Follow)](https://github.com/tbakerx/)
+\3. **Install & Run** 💼
+   \Navigate to the repo's root in your terminal and run:
+   \```bash
+   \yarn install
+   \yarn dev
+   \```
+   \The project should now be live at [http://localhost:3000](http://localhost:3000).
 
-## Stargazers
+\4. **Customize** 🎨
+   \All website content is sourced from `/src/data/data.tsx`. Simply adjust this file's content to reflect your details. Changes will be reflected immediately upon saving. Relevant data types are in `dataDef.ts`, and sample images are stored under `src/images/`.
 
-[![Stargazers repo roster for @tbakerx/react-resume-template](https://reporoster.com/stars/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/stargazers)
+\5. **Contact Form** 💌
+   \The contact form is prepped to handle inputs & state, but you'll need to implement the sending functionality. [Sendgrid](sendgrid-link) comes highly recommended.
 
-## Forkers
+\6. **Final Touches** 🖌
+   \Feel free to dive deeper into the codebase to adjust any styling or functionalities!
 
-[![Forkers repo roster for @tbakerx/react-resume-template](https://reporoster.com/forks/dark/tbakerx/react-resume-template)](https://github.com/tbakerx/react-resume-template/network/members)
+\7. **Deploy** 🌍
+   \Hosting your revamped site with [Vercel](vercel-link) is a breeze. Follow their deployment [guide](vercel-guide-link), and in no time, your personal resume website will be live! Bravo!
 
+\## 👨‍💻 **Project Maintained By** 
+\Sujal Thomas Tatipelli
+
+\<sub>Original template by Ted. Huge shoutout for the open-source contribution!🙌\</sub>
+
+\---
+\Followers · Stars · Forks
+\[Your GitHub badges and links]
