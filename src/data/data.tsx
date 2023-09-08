@@ -68,7 +68,7 @@ export const heroData: Hero = {
         I'm a <strong className="text-cyan-100">Full Stack Software Engineer</strong> based in <strong className="text-cyan-100">California</strong>, seeking exciting new opportunities.
       </p>
       <p className="prose-sm text-cyan-100 sm:prose-base lg:prose-lg">
-        During my leisure time, you can find me honing my  <strong className="text-cyan-100">trading</strong>,
+        During my leisure time, you can find me honing my  <strong className="text-cyan-100">trading</strong> 
         skills, strumming melodies on my <strong className="text-cyan-100">guitar</strong>, or venturing into the breathtaking {' '}
         <strong className="text-cyan-100">mountains of California</strong>.
       </p>
@@ -76,7 +76,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'Sujal_Thomas_resume2023.pdf',
+      href: 'Sujal_Thomas_resume_2023.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -220,14 +220,14 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Mock Starbucks App',
-    description: 'A mock Starbucks app built using Spring Boot, GCP, and Docker.',
-    url: 'https://google.com',
+    title: 'Lynk - Cover Letter Generator',
+    description: 'Utilizes OpenAI to generate the perfect cover letter specific to a job listing in under 20 seconds.',
+    url: 'https://lynk.up.railway.app/',
     image: porfolioImage1,
   },
   {
-    title: 'Sneak Peak',
-    description: 'A Price Comparison App built using React, Node.js, and Tailwind CSS.',
+    title: 'Starbucks App',
+    description: 'A Spring MVC-based cashier\'s app with administrative login capability for Starbucks employees & in-store order processing functionality.',
     url: 'https://google.com',
     image: porfolioImage2,
   },
@@ -262,20 +262,35 @@ const BulletPoint = React.memo(({ children }: { children: ReactNode }) => (
 
 export const experience: TimelineItem[] = [
   {
-    date: 'May 2022 - September 2022',
-    location: 'Pikky',
-    title: 'Data Analyst Intern',
+    date: 'Jun 2023 - Aug 2023',
+    location: 'Full Stack Developer',
+    title: 'Lynk Tools - Cover Letter Generator',
     content: (
       <div>
-        <BulletPoint>Engineered a comprehensive data pipeline, leveraging ETL methodologies utilizing Python & SQL to ingest data from diverse sources into a centralized data warehouse, enhancing data accessibility & integrity.</BulletPoint>
-        <BulletPoint>Devised & documented a robust data model for the data warehouse, optimizing decision-making processes and establishing a data dictionary to streamline data management & governance.</BulletPoint>
-        <BulletPoint>Innovated and deployed a data visualization dashboard using Power BI & Redash, enabling stakeholders to interpret complex data effortlessly and make informed decisions.</BulletPoint>
+        <BulletPoint>Developed a React Chrome extension along with a Flask web app that utilizes OpenAI to generate the perfect cover letter specific to a job listing in under 20 seconds (The quickest in the market). </BulletPoint>
+        <BulletPoint>The web extension injects elements when on the LinkedIn jobs page, allowing users to extract, sanitize, organize & send a secure API request to the backend server in just one click. </BulletPoint>
+        <BulletPoint>Implemented key security features including API key validation, token-based authentication, & req rate limiting. </BulletPoint>
+        <BulletPoint>Utilized Flask-Mail for email operations, bcrypt for secure password hashing, and SQLAlchemy for database & user management. </BulletPoint>
+        <BulletPoint>Deployed the Flask app via docker image instance via railway.app, with a PostgreSQL db & Redis sessions. </BulletPoint>
+        <BulletPoint>                 https://lynk.up.railway.app/ </BulletPoint>
+      </div>
+    )
+  },
+  {
+    date: 'Feb 2023 - May 2023',
+    location: 'Pikky',
+    title: 'Back-End Developer Intern',
+    content: (
+      <div>
+        <BulletPoint>Developed an advanced data pipeline by implementing ETL processes using Python and SQL, facilitating the ingestion of data from multiple sources into a centralized data warehouse, thereby improving data accessibility and ensuring data integrity. </BulletPoint>
+        <BulletPoint>Designed and documented a robust data schema for the data warehouse, optimizing decision-making processes and establishing a data dictionary to streamline data management and governance. </BulletPoint>
+        <BulletPoint>Created and deployed a data visualization dashboard using Power BI and Redash, enabling stakeholders to effortlessly interpret complex data and make informed decisions. </BulletPoint>
       </div>
     ),
   },
   {
     date: 'September 2022 - December 2022',
-    location: 'Enterprise Software - SJSU',
+    location: 'Enterprise Software Starbucks @ SJSU',
     title: 'Full Stack Developer',
     content: (
       <div>
