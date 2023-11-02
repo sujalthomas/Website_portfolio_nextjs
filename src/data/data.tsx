@@ -15,10 +15,10 @@ import LinkedInIcon from '../components/Icon/LinkedInIcon';
 //import StackOverflowIcon from '../components/Icon/StackOverflowIcon';
 import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import profilepic from '../images/profilepic.jpg';
-import testimonialImage from '../images/banner.jpg';
+import porfolioImage1 from '../images/portfolio/project1.webp';
+import porfolioImage2 from '../images/portfolio/project2.webp';
+import profilepic from '../images/profilepic.webp';
+import testimonialImage from '../images/banner.webp';
 import {
   About,
   ContactSection,
@@ -220,15 +220,15 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Lynk - Cover Letter Generator',
+    title: 'Job Jolt - Cover Letter Generator',
     description: 'Utilizes OpenAI to generate the perfect cover letter specific to a job listing in under 20 seconds.',
-    url: 'https://lynk.up.railway.app/',
+    url: 'https://job-jolt.vercel.app/',
     image: porfolioImage1,
   },
   {
-    title: 'Starbucks App',
-    description: 'A Spring MVC-based cashier\'s app with administrative login capability for Starbucks employees & in-store order processing functionality.',
-    url: 'https://google.com',
+    title: 'Job-Job BackEnd API',
+    description: "A Python Flask BackEnd API for the Job-Job app, with a PostgreSQL db & Redis sessions.",
+    url: 'https://lynk.up.railway.app/',
     image: porfolioImage2,
   },
 ];
@@ -264,7 +264,7 @@ export const experience: TimelineItem[] = [
   {
     date: 'Jun 2023 - Aug 2023',
     location: 'Full Stack Developer',
-    title: 'Lynk Tools - Cover Letter Generator',
+    title: 'Job Jolt - Cover Letter Generator',
     content: (
       <div>
         <BulletPoint>Developed a React Chrome extension along with a Flask web app that utilizes OpenAI to generate the perfect cover letter specific to a job listing in under 20 seconds (The quickest in the market). </BulletPoint>
@@ -272,7 +272,7 @@ export const experience: TimelineItem[] = [
         <BulletPoint>Implemented key security features including API key validation, token-based authentication, & req rate limiting. </BulletPoint>
         <BulletPoint>Utilized Flask-Mail for email operations, bcrypt for secure password hashing, and SQLAlchemy for database & user management. </BulletPoint>
         <BulletPoint>Deployed the Flask app via docker image instance via railway.app, with a PostgreSQL db & Redis sessions. </BulletPoint>
-        <BulletPoint>                 https://lynk.up.railway.app/ </BulletPoint>
+        <BulletPoint>                 https://job-jolt.vercel.app/ </BulletPoint>
       </div>
     )
   },
@@ -357,8 +357,8 @@ export const contact: ContactSection = {
  */
 export const socialLinks: Social[] = [
   { label: 'Github', Icon: GithubIcon, href: 'https://github.com/sujalthomas' },
-  //{label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/8553186/tim-baker'},
-  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://linkedin.com/in/sujal-thomas-tatipelli-b72120161' },
-  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/sujal_thomas/' },
+  //{label: 'Stack Overflow', Icon: StackOverflowIcon, href: 'https://stackoverflow.com/users/'},
+  { label: 'LinkedIn', Icon: LinkedInIcon, href: 'https://linkedin.com/in/sujal-t-b72120161' },
+  { label: 'Instagram', Icon: InstagramIcon, href: 'https://www.instagram.com/sujal.ts/' },
   { label: 'Twitter', Icon: TwitterIcon, href: 'https://twitter.com/RenegadeThomas' },
 ];
