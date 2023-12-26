@@ -77,7 +77,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'Sujal_Thomas_Tatipelli_Resume_2024',
+      href: 'Sujal_Thomas_Tatipelli_Resume_2024.pdf',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
