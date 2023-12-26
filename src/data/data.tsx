@@ -17,6 +17,7 @@ import TwitterIcon from '../components/Icon/TwitterIcon';
 import heroImage from '../images/header-background.webp';
 import porfolioImage1 from '../images/portfolio/project1.webp';
 import porfolioImage2 from '../images/portfolio/project2.webp';
+import porfolioImage3 from '../images/portfolio/project3.webp';
 import profilepic from '../images/profilepic.webp';
 import testimonialImage from '../images/banner.webp';
 import {
@@ -76,7 +77,7 @@ export const heroData: Hero = {
   ),
   actions: [
     {
-      href: 'Sujal_Thomas_resume_2023.pdf',
+      href: 'Sujal_Thomas_Tatipelli_Resume_2024',
       text: 'Resume',
       primary: true,
       Icon: ArrowDownTrayIcon,
@@ -230,6 +231,12 @@ export const portfolioItems: PortfolioItem[] = [
     description: "A Python Flask BackEnd API for the Job-Job app, with a PostgreSQL db & Redis sessions.",
     url: 'https://lynk.up.railway.app/',
     image: porfolioImage2,
+  },
+  {
+    title: 'Popost - Mediaflow for Social Media',
+    description: "Gives LLMs to browse the internet to research and generate content for their social media accounts.",
+    url: 'https://popost.vercel.app/',
+    image: porfolioImage3,
   },
 ];
 
