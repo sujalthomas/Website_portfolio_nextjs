@@ -70,7 +70,7 @@ export const heroData: Hero = {
       </p>
       <p className="prose-sm text-cyan-100 sm:prose-base lg:prose-lg">
         During my leisure time, you can find me honing my  <strong className="text-cyan-100">trading</strong> 
-        skills, strumming melodies on my <strong className="text-cyan-100">guitar</strong>, or venturing into the breathtaking {' '}
+         skills, strumming melodies on my <strong className="text-cyan-100">guitar</strong>, or venturing into the breathtaking {' '}
         <strong className="text-cyan-100">mountains of California</strong>.
       </p>
     </>
@@ -100,11 +100,11 @@ export const aboutData: About = {
   `,
   aboutItems: [
     { label: 'Location', text: 'San Jose, CA', Icon: MapIcon },
-    { label: 'Age', text: '24', Icon: CalendarIcon },
+    { label: 'Age', text: '25', Icon: CalendarIcon },
     { label: 'Nationality', text: 'Indian', Icon: FlagIcon },
     { label: 'Interests', text: 'Photography, Trading, Cooking', Icon: SparklesIcon },
     { label: 'Study', text: 'San Jose State University', Icon: AcademicCapIcon },
-    { label: 'Employment', text: 'Looking for oppurtunities', Icon: BuildingOffice2Icon },
+    { label: 'Employment', text: 'Looking for opportunities', Icon: BuildingOffice2Icon },
   ],
 };
 
