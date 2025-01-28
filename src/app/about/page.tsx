@@ -18,8 +18,7 @@ import { person, about, social } from "@/app/resources/content";
 export async function generateMetadata() {
   const title = about.title;
   const description = about.description;
-  const timestamp = new Date().getTime();
-  const ogImage = `https://${baseURL}/og?title=${encodeURIComponent(title)}&t=${timestamp}`;
+  const ogImage = `https://${baseURL}/og?title=${encodeURIComponent(title)}`;
 
   return {
     title,
