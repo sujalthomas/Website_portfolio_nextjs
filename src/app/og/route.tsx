@@ -52,7 +52,7 @@ export async function GET(request: Request) {
           }}
         >
           <img
-            src={"https://" + baseURL + person.avatar}
+            src={`https://${baseURL}/images/profilepic.webp`}
             style={{
               width: "12rem",
               height: "12rem",
@@ -75,7 +75,7 @@ export async function GET(request: Request) {
                 textWrap: "balance",
               }}
             >
-              {person.name}
+              Sujal Thomas
             </span>
             <span
               style={{
@@ -86,7 +86,7 @@ export async function GET(request: Request) {
                 opacity: "0.6",
               }}
             >
-              {person.role}
+              Full Stack Software Engineer
             </span>
           </div>
         </div>
