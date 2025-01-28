@@ -12,6 +12,10 @@ export async function GET(request: Request) {
   );
   const fontData = await font;
 
+  // Force image refresh by adding timestamp
+  const timestamp = new Date().getTime();
+  const imageUrl = `https://${baseURL}${person.avatar}?t=${timestamp}`;
+
   return new ImageResponse(
     <div
       style={{
@@ -52,7 +56,7 @@ export async function GET(request: Request) {
           }}
         >
           <img
-            src={`https://${baseURL}${person.avatar}`}
+            src={imageUrl}
             style={{
               width: "12rem",
               height: "12rem",

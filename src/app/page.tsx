@@ -11,27 +11,30 @@ import { Posts } from "@/components/blog/Posts";
 export async function generateMetadata() {
   const title = home.title;
   const description = home.description;
-  const ogImage = `https://${baseURL}/og?title=${encodeURIComponent(title)}`;
+  const timestamp = new Date().getTime();
+  const ogImage = `https://${baseURL}/og?title=${encodeURIComponent(title)}&t=${timestamp}`;
 
   return {
     title,
     description,
     openGraph: {
-      title,
-      description,
+      title: `${person.name}'s Portfolio`,
+      description: person.role,
       type: "website",
       url: `https://${baseURL}`,
       images: [
         {
           url: ogImage,
           alt: title,
+          width: 1920,
+          height: 1080,
         },
       ],
     },
     twitter: {
       card: "summary_large_image",
-      title,
-      description,
+      title: `${person.name}'s Portfolio`,
+      description: person.role,
       images: [ogImage],
     },
   };
